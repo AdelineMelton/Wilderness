@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Art Prints</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+    
+            
+                <a href="#home">Home</a>
+                <a href="#categories">Shop by Category</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            
+        </nav>
+    </header>
+    <style>
+        a:link, a:visited 
+    {
+ 
+  color: black;
+  border: 0px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: fontawesome;
+}
+a:hover,a:active
+ {
+  background-color: #4CAF50;
+  color: white;
+  font-family: fontawesome;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #F7F7F5;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+    font-family: 'Lora', serif;
+    color: #2C5F2D;
+    font-size: 1.5rem;
+}
+
+
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: lightgrey;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+#hero h1 {
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+}
+
+#categories {
+    padding: 3rem 2rem;
+    background-color: #E6E1C5;
+    text-align: center;
+}
+
+.category-cards .card {
+    background-color: #8B5E3C;
+    color: #F7F7F5;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #2C5F2D;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+    </style>
+
+    <section id="hero">
+        <h1>Bring the Wilderness Home</h1>
+        <p>Discover beautiful wildlife art prints that capture the essence of nature.</p>
+    </section>
+    <section id="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-cards">
+            <div class="card" id="birds">Birds</div>
+            <div class="card" id="mammals">Mammals</div>
+            <div class="card" id="marine">Marine Life</div>
+            <div class="card" id="insects">Insects</div>
+        </div>
+    </section>
+    <section id="featured">
+        <h2>Featured Prints</h2>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wildlife Art Prints</p>
+        <div class="social-media-icons">
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
